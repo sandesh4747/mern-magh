@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Business Card</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+      }
+      h1 {
+      }
+      .heading {
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(45deg, #15aabf, #0d87a1);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        width: 370px; /*Set width*/
+        background-color: #fff;
+        box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+
+        text-align: center;
+        padding: 20px;
+        margin: 100px auto; /* Center horizontally */
+      }
+
+      .main-img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+      }
+      .person-description {
+        color: #6f6f6f;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        padding-top: 12px;
+        border-top: 1px solid #eee;
+      }
+      .about-person {
+        font-weight: 600;
+        font-size: 25px;
+        margin-bottom: 6px;
+      }
+      .main-name {
+        color: #15aabf;
+      }
+      .contact {
+        padding: 6px;
+        margin-bottom: 12px;
+        border-radius: 5px;
+        background: linear-gradient(45deg, #15aabf, #0d87a1);
+        color: #fff;
+      }
+      .link {
+      }
+      .social-link {
+        list-style-type: none;
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+        color: #676767;
+      }
+      .social-icon {
+        color: #676767;
+        height: 24px;
+        width: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>bussiness card format</h1>
+    </div>
+    <div class="container">
+      <div>
+        <img class="main-img" src="assets/img/sample.png" alt="sample image" />
+      </div>
+      <div>
+        <p class="about-person">
+          Hi, <span class="main-name"> I'm Sandesh Thapa!</span>
+        </p>
+        <p>Web Designer & Developer</p>
+      </div>
+      <div>
+        <p class="person-description">
+          Currently learning MERN stack at Mindriser institute.
+        </p>
+      </div>
+      <div class="contact">
+        <p>email:sangitthapa328@gmail.com phone:9864425722</p>
+      </div>
+      <div class="link">
+        <ul class="social-link">
+          <li>
+            <a href="#"
+              ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
